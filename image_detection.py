@@ -1,5 +1,5 @@
 import cv2
-image=cv2.imread("C:/Users/Kanishk/OneDrive/Pictures/image_human.jpg")
+image=cv2.imread("image.jpg")
 #image=image.resize(image,1.3)
 cascade=cv2.CascadeClassifier('FaceFront.xml')
 faces=cascade.detectMultiScale(image,1.3)
